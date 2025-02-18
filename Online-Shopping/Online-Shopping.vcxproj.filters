@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\user">
+      <UniqueIdentifier>{445b88bf-7f75-4b61-b5d1-5b8ab5e68961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\product">
+      <UniqueIdentifier>{489bedf3-d33c-41e8-99d4-5e06993ec92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cart">
+      <UniqueIdentifier>{b6147fcf-ebdf-4baa-b806-25c0f83d8b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\order">
+      <UniqueIdentifier>{e544bc50-3766-436c-870c-40b0c0658cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\storage">
+      <UniqueIdentifier>{f84c398b-880e-4b83-a99d-404a64919299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\user">
+      <UniqueIdentifier>{18184b1c-2d3d-4191-942c-5ad6cde5121d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\product">
+      <UniqueIdentifier>{08347ac8-7025-43ee-a4d9-daa10294c84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\order">
+      <UniqueIdentifier>{d374bd5e-eb59-4569-b401-5a561b50d47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\storage">
+      <UniqueIdentifier>{c284f297-1b6d-44e3-9b43-bd33a3df4003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cart">
+      <UniqueIdentifier>{33bf1db5-6b76-416f-a309-f1186e0297c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cart.h">
+      <Filter>头文件\cart</Filter>
+    </ClCompile>
+    <ClCompile Include="user.h">
+      <Filter>头文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="product.h">
+      <Filter>头文件\product</Filter>
+    </ClCompile>
+    <ClCompile Include="order.h">
+      <Filter>头文件\order</Filter>
+    </ClCompile>
+    <ClCompile Include="storage.h">
+      <Filter>头文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="cart.cpp">
+      <Filter>源文件\cart</Filter>
+    </ClCompile>
+    <ClCompile Include="storage.cpp">
+      <Filter>源文件\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="order.cpp">
+      <Filter>源文件\order</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>源文件\product</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
